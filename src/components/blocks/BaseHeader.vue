@@ -13,10 +13,11 @@ export default {
 <style lang="scss" scoped>
 header{
     background-color: var(--secondary-color);
+    height: 80px;
 
     img{
-       height: 4rem;
-       margin: 1.3rem;
+       height: 3rem;
+       margin: 1rem;
     }
 }
 </style>
