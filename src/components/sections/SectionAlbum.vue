@@ -54,7 +54,8 @@ export default {
 <style lang="scss" scoped>
 section{
     background-color: var(--primary-color);
-
+    height: calc(100vh - 80px);
+    overflow: auto;
     .container{
         padding-top: 20px;
     }
