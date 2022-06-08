@@ -1,7 +1,7 @@
 <template>
   <div class="album">
       <img :src="album.poster" :alt="album.title">
-      <h3>{{album.title}}</h3>
+      <h5>{{album.title}}</h5>
       <div class="author">{{album.author}}</div>
       <div class="year">{{album.year}}</div>
   </div>
@@ -25,7 +25,7 @@ export default {
         max-width: 100%;
         padding: 15px;
     }
-    h3{
+    h5{
         text-transform: uppercase;
         color: white;
         margin-bottom: 15px;

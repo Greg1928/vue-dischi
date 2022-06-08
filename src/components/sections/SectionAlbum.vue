@@ -1,6 +1,7 @@
 <template>
   <section>
       <div class="container">
+          <h4>Select Genres</h4>
           <SelectOptions/>
           <div class="row">
               <CardAlbum class="col-12 col-sm-6 col-md-4 col-lg-2" v-for="(album, i) in genreFiltered" :key="i" :album="album"/>
@@ -53,10 +54,18 @@ export default {
 <style lang="scss" scoped>
 section{
     background-color: var(--primary-color);
-    height: calc(100vh - 80px);
+
+    .container{
+        padding-top: 20px;
+    }
 
     .row{
-        padding: 57px 0;
+        padding: 38px 0;
+        justify-content: center;
+    }
+    h4{
+        color: white;
+        text-align: center;
     }
 }
 </style>
