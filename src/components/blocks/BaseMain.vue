@@ -6,6 +6,7 @@
 
 <script>
 import SectionAlbum from '../sections/SectionAlbum.vue';
+
 export default {
     name: "BaseMain",
     components: { SectionAlbum }

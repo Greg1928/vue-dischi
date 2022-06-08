@@ -5,6 +5,8 @@
 </template>
 
 <script>
+
+
 export default {
     name: 'BaseHeader',
 }
@@ -20,4 +22,5 @@ header{
        margin: 1rem;
     }
 }
+
 </style>
